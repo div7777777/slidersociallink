@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(90deg, turquoise, whitesmoke);
+    
+}
+/* profil */
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.profil{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid black;
+    padding: 2px;
+    background: linear-gradient(180deg, turquoise, white);
+    animation: 1s infinite neon;
+}
+@keyframes neon{
+    50%{
+        background: linear-gradient(180deg, white, turquoise);
+    }
+}
+/* title */
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s{
+    font-size: 35px;
+    color: black;
+    animation: 2s infinite s;
+}
+@keyframes s{
+    50%{
+        opacity: 0;
+    }
+}
+.o{
+    font-size: 35px;
+    color: black;
+    animation: 3s infinite o;
+}
+@keyframes o{
+    50%{
+        opacity: 0;
+    }
+}
+.c{
+    font-size: 35px;
+    color: black;
+    animation: 4s infinite c;
+}
+@keyframes c{
+    50%{
+        opacity: 0;
+    }
+}
+.i{
+    font-size: 35px;
+    color: black;
+    animation: 5s infinite i;
+}
+@keyframes i{
+    50%{
+        opacity: 0;
+    }
+}
+.a{
+    font-size: 35px;
+    color: black;
+    animation: 6s infinite a;
+}
+@keyframes a{
+    50%{
+        opacity: 0;
+    }
+}
+.l{
+    font-size: 35px;
+    color: black;
+    animation: 7s infinite l;
+
+}
+@keyframes l{
+    50%{
+        opacity: 0;
+    }
+}
+._{
+    opacity: 0;
+}
+.ll{
+    font-size: 35px;
+    color: black;
+    animation: 5s infinite ll;
+}
+@keyframes ll{
+    50%{
+        opacity: 0;
+    }
+}
+.ii{
+    font-size: 35px;
+    color: black;
+    animation: 4s infinite ii;
+}
+@keyframes ii{
+    50%{
+        opacity: 0;
+    }
+}
+.n{
+    font-size: 35px;
+    color: black;
+    animation: 3s infinite n;
+}
+@keyframes n{
+    50%{
+        opacity: 0;
+    }
+}
+.k{
+    font-size: 35px;
+    color: black;
+    animation: 2s infinite k;
+}
+@keyframes k{
+    50%{
+        opacity: 0;
+    }
+}
+/* social link */
+.contenair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 360px;
+    width: 270px;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    background-size: 100px;
+    border-radius: 50px;
+    height: 180px;
+    width: 180px;
+    animation:5s infinite items;
+}
+@keyframes items{
+    50%{
+        transform: rotate(360deg);
+    }
+}
+.menu{
+    overflow: hidden;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 360px;
+    width: 270px;
+    border-radius: 30px;
+    border: 4px solid black;
+    background: linear-gradient(90deg, turquoise, whitesmoke);
+   animation: 10s infinite btn;
+}
+@keyframes btn{
+0%{
+    transform: translateX(0);
+}
+25%{
+    transform: translateX(-270px);
+}
+50%{
+    transform: translateX(-540px);
+}
+75%{
+    transform: translateX(-810px);
+}
+100%{
+    transform: translateX(-1080px);
+}
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    background: whitesmoke;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 4px solid black;
+    
+}
+/*  */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.h3{
+    color: turquoise;
+}
+/*  */
+.contacte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+</style>
+    <!-- profil -->
+    <div class="div">
+    <div class="profil">
+        <img src="https://img.icons8.com/ios-filled/65/000000/share--v1.png"/>
+    </div>
+    </div>
+    <!--  -->
+    <div class="title">
+        <h1 class="s">S</h1>
+        <h1 class="o">O</h1>
+        <h1 class="c">C</h1>
+        <h1 class="i">I</h1>
+        <h1 class="a">A</h1>
+        <h1 class="l">L</h1>
+        <h1 class="_">_</h1>
+        <h1 class="ll">L</h1>
+        <h1 class="ii">I</h1>
+        <h1 class="n">N</h1>
+        <h1 class="k">K</h1>
+        <img src="https://img.icons8.com/ios/50/000000/centralized-network.png"/>
+    </div>
+    <!-- -->
+    <div class="contacte">
+        <div class="cont">
+        <img src="https://img.icons8.com/ios-glyphs/64/000000/whatsapp.png"/>
+        <img src="https://img.icons8.com/ios-filled/64/000000/mail.png"/>
+        <img src="https://img.icons8.com/pastel-glyph/64/000000/worldwide-location--v2.png"/>
+        </div>
+    </div>
+    <!-- social link -->
+    <div class="contenair">
+        <div class="menu">
+            <div class="item"><button class="btn"><img class="items" src="https://img.icons8.com/neon/50/000000/experimental-facebook-new-neon.png"/><h2 class="h2"> Facebook</h2></button></div>
+            <div class="item"><button class="btn"><img class="items" src="https://img.icons8.com/nolan/38/instagram-new.png"/><h2 class="h2"> Instagram</h2></button></div>
+            <div class="item"> <button class="btn"><img class="items" src="https://img.icons8.com/nolan/50/linkedin.png"/><h2 class="h2"> Linkdin</h2></button></div>
+            <div class="item"><button class="btn"><img class="items" src="https://img.icons8.com/nolan/50/tiktok.png"/><h2 class="h2"> TikTok</h2></button></div>
+            <div class="item"> <button class="btn"><img class="items" src="https://img.icons8.com/nolan/50/twitter.png"/><h2 class="h2"> Twitter</h2></button></div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <h3 class="h3">Copyrigth22 HD</h3>
+    </footer>
+</body>
+</html>
